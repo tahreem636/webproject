@@ -285,7 +285,23 @@
   transform: scale(1.05); 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
-
+.card-link {
+  color: inherit; /* Keep text color consistent */
+}
+.card-link2 {
+  color: inherit; /* Keep text color consistent */
+}
+.card-link3 {
+  color: inherit; /* Keep text color consistent */
+}
+.card-link4 {
+  color: inherit; /* Keep text color consistent */
+}
+@media (max-width: 768px) {
+  .card-img-top {
+      height: 150px; /* Smaller image height on smaller screens */
+  }
+}
 /* footer */
 .custom-footer {
   background-color: #fcc5ab;

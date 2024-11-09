@@ -28,3 +28,37 @@ document.addEventListener('DOMContentLoaded', function() {
 
   observer.observe(aboutText); // Observe the text element
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const cardLink = document.querySelector(".card-link");
+
+  cardLink.addEventListener("click", function () {
+      console.log("Card clicked! Redirecting to gb4.html");
+  });
+
+  //2nd card
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const cardLink = document.querySelector(".card-link2");
+
+  cardLink.addEventListener("click", function () {
+      console.log("Card clicked! Redirecting to gb1.html");
+  });
+
+  //3rd card
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const cardLink = document.querySelector(".card-link3");
+
+  cardLink.addEventListener("click", function () {
+      console.log("Card clicked! Redirecting to gb3.html");
+  });
+
+  //4th card
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const cardLink = document.querySelector(".card-link4");
+
+  cardLink.addEventListener("click", function () {
+      console.log("Card clicked! Redirecting to gb5.html");
+  });
+});
