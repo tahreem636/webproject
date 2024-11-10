@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Influencer Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8fafc;
+            color: #333;
+        }
+        .container-fluid {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .influencer-sidebar {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: sticky;
+            top: 20px;
+        }
+        .influencer-info h3 {
+            font-size: 2rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .influencer-info p {
+            font-size: 1rem;
+            color: #555;
+            margin: 10px 0;
+        }
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 12px 0;
+            color: #555;
+        }
+        .info-item i {
+            color: #007bff;
+            font-size: 1.2rem;
+        }
+        .profile-image {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 12px;
+            border: 4px solid #007bff;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            object-fit: cover;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Left side: Influencer Data -->
+        <div class="col-md-4 col-lg-3 influencer-sidebar">
+            <div class="influencer-info">
+                <h3>Saira Bano</h3>
+                <p>Brand Influencer</p>
+                <div class="info-item">
+                    <i class="bi bi-geo-alt"></i>
+                    <span>London</span>
+                </div>
+                <div class="info-item">
+                    <i class="bi bi-people"></i>
+                    <span>Followers: 500K</span>
+                </div>
+                <div class="info-item">
+                    <i class="bi bi-envelope"></i>
+                    <span>influencer2@example.com</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right side: Profile Image and Gallery -->
+        <div class="col-md-8 col-lg-9">
+            <!-- Top: Profile Image -->
+            <div class="text-center">
+                <img src="influcer23.jpg" alt="Influencer Profile" class="profile-image">
+            </div>
+            <!-- Bottom: Gallery of Images -->
+            <div class="gallery mt-4">
+                <img src="influcer21.jpg" alt="Gallery Image 1">
+                <img src="influcer22.jpg" alt="Gallery Image 2">
+                <img src="influcer23.jpg" alt="Gallery Image 3">
+                <img src="influcer24.jpg" alt="Gallery Image 4">
+                <img src="influcer25.jpg" alt="Gallery Image 5">
+                <img src="influcer26.jpg" alt="Gallery Image 6">
+                <img src="influcer29.jpg" alt="Gallery Image 7">
+                <img src="influcer28.jpg" alt="Gallery Image 8">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"></script>
+</body>
+</html>
