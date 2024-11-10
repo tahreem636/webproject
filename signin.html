@@ -83,14 +83,6 @@
         <h2 class="signup-header">Create Your Account</h2>
         <form action="#" method="post" id="signupForm">
             <div class="mb-4">
-                <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" name="firstName" required>
-            </div>
-            <div class="mb-4">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" name="lastName" required>
-            </div>
-            <div class="mb-4">
                 <label for="username" class="form-label">Username</label>
                 <input type="text" class="form-control" id="username" name="username" required>
             </div>
@@ -102,16 +94,16 @@
             <div class="mb-4">
                 <label for="password" class="form-label">Password</label>
                 <input type="password" class="form-control" id="password" name="password" required>
-                <div class="form-text">Use 8 or more characters with a mix of letters, numbers & symbols.</div>
+                <div class="form-text">Use 6 or more characters with a mix of letters, numbers & symbols.</div>
             </div>
             <div class="mb-4">
                 <label for="confirmPassword" class="form-label">Confirm Password</label>
                 <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
             </div>
 
-            <!-- Add the radio buttons for Influencer or Brand -->
+            <!-- Add the radio buttons for Influencer, Brand, Graphics, or SEO -->
             <div class="mb-4">
-                <label class="form-label">I am a</label>
+                <label class="form-label">Who you are</label>
                 <div class="radio-group">
                     <div>
                         <input type="radio" id="influencer" name="role" value="Influencer" required>
@@ -120,6 +112,14 @@
                     <div>
                         <input type="radio" id="brand" name="role" value="Brand" required>
                         <label for="brand">Brand</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="graphics" name="role" value="Graphics" required>
+                        <label for="graphics">Graphics</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="seo" name="role" value="SEO" required>
+                        <label for="seo">SEO</label>
                     </div>
                 </div>
             </div>
